@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+background-color: #1F2544;
+}
+/* #81689D navbar */
+.MuiPaginationItem-page,
+.MuiSvgIcon-root {
+  color: #fff !important; /* Mengubah warna teks dan simbol menjadi putih */
+}
+
+.MuiPaginationItem-ellipsis {
+  color: #fff !important; /* Mengubah warna teks "..." menjadi putih */
+  opacity: 0.5; /* Atur kecerahan teks "..." */
+}
+
